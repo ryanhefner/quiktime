@@ -1,12 +1,12 @@
 {
-  "name": "replace-me",
+  "name": "quicktime",
   "version": "0.1.0",
-  "description": "[Package description here]",
+  "description": "Quickly format duration time values in a condensed format.",
   "repository": {
     "type": "git",
-    "url": "[your-git-repo]"
+    "url": "ryanhefner/quicktime"
   },
-  "author": "[Author Info]",
+  "author": "Ryan Hefner <hi@ryanhefner.com> (https://www.ryanhefner.com)",
   "license": "MIT",
   "files": [
     "es",

@@ -1,24 +1,46 @@
-# \[your package name\]
+# ⏱ quicktime
 
-\[package description\]
+Quickly format duration time values in a condensed format.
 
 ## Install
 
-Via [npm](https://npmjs.com/package/\[your-package-name\])
+Via [npm](https://npmjs.com/package/quicktime)
 
 ```sh
-npm install [your package name]
+npm install quicktime
 ```
 
-Via [Yarn](https://yarn.pm/\[your-package-name\])
+Via [Yarn](https://yarn.pm/quicktime)
 
 ```sh
-yarn add [your package name]
+yarn add quicktime
 ```
 
 ## How to use
 
+**Without Options**
+```
+import quicktime from 'quicktime'
+
+console.debug(quicktime(1200))
+
+===
+
+Output: 1.2 ms
+
+```
+
+**With Options**
+```
+import quicktime from 'quicktime`
+
+console.debug(quicktime(1234, { maximumFractionDigits: 3 }))
+
+===
+
+Ourput: 1.234 ms
+```
 
 ## License
 
-[MIT](LICENSE) © \[your copyright info\]
+[MIT](LICENSE) © [Ryan Hefner](https://www.ryanhefner.com)

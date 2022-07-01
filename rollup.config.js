@@ -10,10 +10,11 @@ const config = {
   output: {
     name: pkg.name,
     file: './index.js',
+    exports: 'named',
     format: 'umd',
     globals: {},
-    banner: `/*! [banner info] !*/`,
-    footer: '/* [footer info] */',
+    banner: `/*! quicktime - Quickly format duration values in a condensed format. !*/`,
+    footer: '/* MIT License - Copyright 2022 - Follow me on Twitter: @ryanhefner */',
   },
   external: [],
   plugins: [
