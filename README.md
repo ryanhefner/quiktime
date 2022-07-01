@@ -38,8 +38,14 @@ console.debug(quiktime(1234, { maximumFractionDigits: 3 }))
 
 ===
 
-Ourput: 1.234 ms
+Output: 1.234 ms
 ```
+
+### Options
+
+`minimumIntegerDigits: number` - The minimum number of integer digits to use. Possible values are from `1` to `21`; the default is `1`.
+`minimumFractionDigits: number` - The minimum number of fraction digits to use. Possible values are from `0` to `20`; the default is `0`.
+`maximumFractionDigits: number` - The maximum number of fraction digits to use. Possible values are from `0` to `20`; the default is `2`
 
 ## License
 
