@@ -13,7 +13,7 @@ const config = {
     exports: 'named',
     format: 'umd',
     globals: {},
-    banner: `/*! quicktime - Quickly format duration values in a condensed format. !*/`,
+    banner: `/*! quiktime - Quickly format duration values in a condensed format. !*/`,
     footer: '/* MIT License - Copyright 2022 - Follow me on Twitter: @ryanhefner */',
   },
   external: [],

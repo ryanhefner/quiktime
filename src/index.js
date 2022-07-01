@@ -14,14 +14,14 @@ const DEFAULT_OPTIONS = {
 }
 
 /**
- * quicktime
+ * quiktime
  * Quick duration formatting in a condensed format
  *
  * @param {number} duration
  * @param {{ minimumIntegerDigits?: number=, minimumFractionDigits?: number=, maximumFractionDigits?: number= }} [options=]
  * @return string
  */
-const quicktime = (duration, options) => {
+const quiktime = (duration, options) => {
   const opts = { ...DEFAULT_OPTIONS, ...options }
 
   // Milliseconds
@@ -58,4 +58,4 @@ const quicktime = (duration, options) => {
   return `${(duration / Duration.YEAR).toLocaleString(undefined, opts)} yr`
 }
 
-export default quicktime
+export default quiktime
