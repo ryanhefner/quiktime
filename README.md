@@ -1,5 +1,13 @@
 # ⏱ quiktime
 
+[![npm](https://img.shields.io/npm/v/quiktime?style=flat-square)](https://www.pkgstats.com/pkg:quiktime)
+[![NPM](https://img.shields.io/npm/l/quiktime?style=flat-square)](LICENSE)
+[![npm](https://img.shields.io/npm/dt/quiktime?style=flat-square)](https://www.pkgstats.com/pkg:quiktime)
+[![Coveralls github](https://img.shields.io/coveralls/github/ryanhefner/quiktime?style=flat-square)](https://coveralls.io/github/ryanhefner/quiktime)
+[![codecov](https://codecov.io/gh/ryanhefner/quiktime/branch/main/graph/badge.svg)](https://codecov.io/gh/ryanhefner/quiktime)
+[![CircleCI](https://img.shields.io/circleci/build/github/ryanhefner/quiktime?style=flat-square)](https://circleci.com/gh/ryanhefner/quiktime)
+![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/ryanhefner/quiktime?style=flat-square)
+
 Quickly format duration time values in a condensed format.
 
 ## Install
