@@ -37,7 +37,7 @@ jobs:
       - run: yarn build
 
       # run tests!
-      - run: yarn test
+      - run: yarn test:ci
 
       # send code coverage info to coveralls
       - run: cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
