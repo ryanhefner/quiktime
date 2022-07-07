@@ -1,6 +1,6 @@
 {
   "name": "quiktime",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Quickly format duration time values in a condensed format.",
   "repository": {
     "type": "git",
